@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:id="@+id/camp"
+        android:layout_weight="0.92">
+    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@android:drawable/button_onoff_indicator_on"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ns"
+        android:id="@+id/answer"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textColor="#ff4a44ff"
+        android:phoneNumber="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debug"
+        android:id="@+id/btn"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
